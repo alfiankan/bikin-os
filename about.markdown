@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
+{% include analytics.html %}
 This content is not intended for profesionally use, this is just writer exploration and hobby to write operating system.
 
 You can find the source code for Minima at GitHub:
