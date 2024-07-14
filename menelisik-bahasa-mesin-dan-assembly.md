@@ -59,18 +59,16 @@ Oke penulis akan coba memberikan gambaran paling abstrak proses dari intruksi ke
 perintah atau intruksi yang kita mau sampai ke ALU untuk melakukan tugas matematis yaitu menambahkan 2 angka.
 
 ```bash
-
 |addr|MEMORY======|
-|-----------------|
-|0   | TAMBAH 2, 3|---------[FETCH]--------[DECODE]------[ALU]
-|-----------------|            
-|1   | NOP        |            ↓
-|-----------------|            ↓
-|2   | NOP        |            ↓
-|-----------------|            ↓ 
-|3   | NOP        |         Arah Fetch
-|-----------------|
-
+|---------------------|
+|0   | SIMPAN KE r2, 3|---------[FETCH]--------[DECODE]------[ALU]
+|---------------------|            ↓
+|1   | SIMPAN KE r3, 5|            ↓
+|---------------------|            ↓
+|2   | TAMBAH r2, r3  |            ↓
+|---------------------|            ↓ 
+|3   | NOP            |         Arah Fetch
+|---------------------|
 
 NOP = Tidak melakukan apa apa
 
