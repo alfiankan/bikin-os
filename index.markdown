@@ -4,3 +4,8 @@
 
 layout: home
 ---
+
+![Cpu 100% Fine](/cpu_fine.jpg)
+
+
+- [Menelisik assembly Pt. 1 - kompilasi terbalik](https://bikin-os.pages.dev/menelisik-intuisi-assembly-dan-bahasa-mesin-cpu-reverse-compilation)

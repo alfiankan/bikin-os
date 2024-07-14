@@ -255,7 +255,7 @@ jika kita lihat pada gambar ada,
 
 Sampai disini kita telah menyampai titk terang program kita tadi sudah benar sesuai hasil diassembly dan kita bisa memahami programnya yaitu sebagai berikut.
 
-```asm
+```bash
 
 mov r1, #5          // simpan angka 5 ke register r1
 mov r2, #3          // simpan angka 3 ke register r2
