@@ -212,7 +212,7 @@ lalu yang terakhir adalah immidiete value, kita mengisikan bit dari angka 5 sepa
 ```bash
 
 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
-1  1  1  0  0  0  1  1  1  0  1  0  0  0  0  0  0  0  0  1  0  0  0 0 0 0 0 0 0 0 1 0
+1  1  1  0  0  0  1  1  1  0  1  0  0  0  0  0  0  0  0  1  0  0  0 0 0 0 0 0 0 1 0 1
 
 ```
 
@@ -221,7 +221,7 @@ mengurutkan ulang karena pada arsitektur yang kita pakai ini adalah little endia
 membacanya dari kanan ke kiri
 
 ```bash
-hasil decode manual             = 11100011 10100000 00010000 00000010
+hasil decode manual             = 11100011 10100000 00010000 00000101
 kode program                    = 00000101 00010000 10100000 11100011
 kode program dibaca dari kanan  = 11100011 10100000 00010000 00000101
 
